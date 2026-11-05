@@ -87,18 +87,14 @@ a {
 }
 /* --- DISEÑO RESPONSIVO PARA MÓVILES --- */
 @media (max-width: 600px) {
-  
-  /* Forzamos a que la tarjeta se apile verticalmente en pantallas de menos de 600px */
   .tarjeta-de-novela {
     flex-direction: column;
-    text-align: center;    /* Centramos los textos para que se vea más estético en el móvil */
-    align-items: center;   /* Centramos la carátula y el bloque de textos */
+    text-align: center;
+    align-items: center;
     gap: 15px;
   }
-
-  /* Opcional: Si quieres que las carátulas se adapten un poco al ancho del móvil */
   .tarjeta-de-novela .novela-portada {
-    width: 140px;          /* Un pelín más pequeña en móvil para que respire el diseño */
-    height: 210px;         /* Mantiene la proporción 2:3 */
+    width: 140px;
+    height: 210px;
   }
 }
