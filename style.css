@@ -1,0 +1,87 @@
+/* Estilo de la pagina en general */
+.cuerpo-de-la-pagina {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0f111a;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+/* Estilo de enlaces */
+a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+/* Estilo de mensaje de bienvenida */
+.bienvenida {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #161925;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 1px solid #23283d;
+
+  .titulo-principal-bienvenida {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #6366f1;
+    margin: 0 0 10px 0;
+  }
+  .descripcion-bienvenida {
+    color: #94a3b8;
+    margin: 0;
+  }
+}
+
+/* Contenido / Novela / Un mundo de distancia*/
+.tarjeta-de-novela {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+
+  .novela-portada {
+    border-radius: 10px;
+    border: 3px solid #6366f1;
+    width: 160px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .novela-info {
+    font-family: 'Open Sans', sans-serif;
+    color: #e2e8f0;
+    padding: 0;
+
+    /* Información de la novela */
+    .genero {
+      font-style: italic;
+      color: #94a3b8;
+    }
+    /* Estados de publicación */
+    .estado-publicacion-ec {
+      color: rgb(0, 225, 255);
+      font-style: italic;
+    }
+    .estado-publicacion-p {
+      color: rgb(255, 37, 37);
+      font-style: italic;
+    }
+    .estado-publicacion-t {
+      color: rgb(57, 250, 51);
+      font-style: italic;
+    }
+    .estado-publicacion-c {
+      color: rgb(252, 255, 51);
+      font-style: italic;
+    }
+    /* Capítulos */
+    .capitulos {
+      color: paleturquoise;
+      font-style: italic;
+    }
+    /*Autor*/
+    .novela-autor {
+      font-weight: bold;
+    }
+  }
+}
