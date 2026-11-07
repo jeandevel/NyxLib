@@ -10,6 +10,6 @@ Nyx es una plataforma web minimalista, libre de algoritmos agresivos, diseñada 
 ## 📌 Estado del proyecto
 Actualmente en desarrollo activo de la interfaz del catálogo principal y maquetación de componentes genéricos.
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub Repo">
 </p>
